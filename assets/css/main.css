@@ -1,0 +1,106 @@
+* {
+	padding: 0;
+	margin: 0;
+	
+
+}
+
+body {
+	font-family: "Segoe UI",Arial, sans-serif;
+	background-image: url(../img/Acantilados-de-Moher-Irlanda-Reino-Unido.jpg);
+
+}
+
+
+li{
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	line-height: 1;
+    padding: 0 14px 0 4px;
+}
+
+a:hover {
+	color: #981ceb;
+}
+
+#navbar {
+	background-color: #e7e0d6;
+}
+
+h1 {
+	text-align: center;
+	color: #000;
+}
+
+
+ #txt{
+    color: #4E4D53;
+    font-size: 15px;
+    padding: 1em;
+    border-radius: 1em;
+    border: 2px solid #A8A2A2;
+    margin-left: 800px;
+    margin-top: 50px;
+    background-color: #fff;
+    display: inline-block;
+    font-family: "Segoe UI",Arial, sans-serif;
+    resize: none;
+}
+
+
+[type=button]{
+	padding: 5px;
+	border: 1px outset #D6D6D6;
+	cursor: pointer;
+	text-align: center;
+	
+}
+
+button {
+	background-color: #17ADFA;
+	font-family: "Segoe UI",Arial, sans-serif;
+	font-size: 16px;
+    display: block;
+    margin-left: 800px;
+    margin-top: 10px;
+
+}
+
+button:hover {
+	background-color: #686464;
+	border: 1px outset black;
+}
+
+#left {
+	background-color: #fff;
+    width: 500px;
+    height: 200px;
+	float: left;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: -160px;
+	border: 2px solid #A8A2A2;
+	border-radius: 1em;
+}
+
+#left p {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#cont p{
+	margin-top: 100px;
+	background-color: #fff;
+	width: 1000px;
+	height: 40px;
+	margin-left: 100px;
+}

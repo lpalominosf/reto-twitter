@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name = "viewport" content="width=device-width">
+	<meta charset="UTF-8">
+	<!-- nombre de pestaña -->
+	<title> (*) Twitter </title>
+	<!-- icono de Twitter en la pestaña -->
+	<link rel="shortcut icon" href="assets/img/twitter.png" type="image/png">
+	<!-- iconos del menu -->
+	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- enlazado de css -->
+	<link rel="stylesheet" href="assets/css/main.css">
+	
+	</head>
+<body>
+	<header>
+		<!-- barra navegacion -->
+		<nav id="navbar">	
+			<!-- titulo -->
+			<h1>Twitter</h1>	
+			<!-- lista para ordenar el menu -->
+			<ul>
+				<li>
+					<!-- cada a contiene un icono ademas del menu -->
+					<a href="#"><span><i class="fa fa-home" aria-hidden="true"></i></span> Inicio</a>
+				</li>
+				<li>
+					<a href="#"><span><i class="fa fa-bell-o" aria-hidden="true"></i></span> Notificaciones</a>
+				</li>
+				<li>
+					<a href="#"><span><i class="fa fa-envelope-o" aria-hidden="true"></i></span> Mensajes</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<!-- contenedor del textarea -->
+		<div id="comment">
+			<form name="texto-ingresado">
+			<!-- area de texto -->
+			<textarea id="txt" name="name" rows="4" cols="70" onKeyDown="contador(this.form.mensaje,this.form.remLen,140);" onKeyUp="contador(this.form.mensaje,this.form.remLen,140);" placeholder="¿Qué está pasando?"></textarea>
+			</form>
+		</div>
+		<div>
+			<button type="button" id="btn">Tweet</button>			
+		</div>
+		<div id="left">
+			<p>Hola, soy estudiante de Laboratoria!</p>
+		</div>
+		<!-- contenedor de los nuevos comentarios -->
+		<div id="cont"></div>
+
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
+
+

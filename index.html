@@ -38,17 +38,19 @@
 		<div id="comment">
 			<form name="texto-ingresado">
 			<!-- area de texto -->
-			<textarea id="txt" name="name" rows="4" cols="70" onKeyDown="contador(this.form.mensaje,this.form.remLen,140);" onKeyUp="contador(this.form.mensaje,this.form.remLen,140);" placeholder="¿Qué está pasando?"></textarea>
+			<textarea id="txt" name="name" rows="4" cols="70" placeholder="¿Qué está pasando?" contenteditable="true"></textarea>
 			</form>
 		</div>
 		<div>
-			<button type="button" id="btn">Tweet</button>			
+			<button type="button" id="btn">Tweet</button>
+			<p id="char-left" class="char">140</p>			
 		</div>
-		<div id="left">
+		<div id="leftdiv">
 			<p>Hola, soy estudiante de Laboratoria!</p>
 		</div>
 		<!-- contenedor de los nuevos comentarios -->
 		<div id="cont"></div>
+
 
 
 <script src="assets/js/app.js"></script>
